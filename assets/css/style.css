@@ -26,7 +26,7 @@ h2 {
   justify-content: space-between;
   background-color: #141414;
 
-  color: #F3F3F3;
+  color: #FFFFFF;
   text-transform: uppercase;
   height: 50px;
   padding: 1em;
@@ -39,6 +39,11 @@ h2 {
   margin: 0;
   padding: 0;
 }
+
+.menu a:visited { 
+  text-decoration: none; 
+  color: #FFFFFF; 
+ }
 
 .menu > li {
   margin: 0 10px;
