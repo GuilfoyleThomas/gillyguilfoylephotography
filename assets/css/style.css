@@ -430,7 +430,7 @@ hr {
 }
 
 #circle-cover-bg {
-  background: url("../images/about-image.jpg") no-repeat center center;
+  background: url("../images/about-image.webp") no-repeat center center;
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -456,7 +456,7 @@ hr {
 /* gallery page */
 
 .gallery-image {
-  padding: 20px;
+  padding: 61px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -699,6 +699,10 @@ hr {
 @media screen and (max-width: 443px) {
   .contact-form {
       top: inherit;
+  }
+
+  #about-me {
+    padding-top: 60px;
   }
 
   .footer-distributed {
