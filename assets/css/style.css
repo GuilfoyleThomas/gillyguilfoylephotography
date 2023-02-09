@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Crimson+Text&display=swap');
 
+:root {
+  --main-color:#141414;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +14,7 @@
 body {
   font-family: "Crimson Text", sans-serif;
   font-weight: 400;
-  color: #141414;
+  color: var(--main-color);
   margin: 0;
 }
 
@@ -23,7 +27,7 @@ h2 {
 /* header */
 
 .header {
-  background-color: #141414;
+  background-color: var(--main-color);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: absolute;
   width: 100%;
@@ -40,7 +44,7 @@ h2 {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #141414;
+  background-color: var(--main-color);
 }
 
 .header li a {
@@ -53,7 +57,7 @@ h2 {
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #fff;
-  color: #141414;
+  color: var(--main-color);
 }
 
 .header .logo {
@@ -74,7 +78,7 @@ h2 {
 
 a.active {
   background-color: #fff;
-  color: #141414;
+  color: var(--main-color);
 }
 
 /* menu */
@@ -157,7 +161,7 @@ footer {
 }
 
 .footer-distributed {
-  background-color: #141414;
+  background-color: var(--main-color);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -216,7 +220,7 @@ footer {
 
 .footer-distributed .footer-center i {
   background-color: #c0c0c0;
-  color: #141414;
+  color: var(--main-color);
   font-size: large;
   width: 38px;
   height: 38px;
@@ -280,7 +284,7 @@ footer {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #141414;
+  background-color: var(--main-color);
   border-radius: 2px;
 
   font-size: 1.25rem;
@@ -297,7 +301,7 @@ footer {
 }
 
 .footer-icons a:hover i {
-  color: #141414;
+  color: var(--main-color);
   transform: scale(1.5);
 }
 
@@ -322,12 +326,12 @@ a.next:hover {
 
 .prev {
   left: 0;
-  background: #141414 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
+  background: var(--main-color) url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
 }
 
 .next {
   right: 0;
-  background: #141414 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+  background: var(--main-color) url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
 }
 
 .slider {
@@ -543,7 +547,7 @@ hr {
 
 .contact-form {
   margin: 150px 10% 0 0;
-  color: #141414;
+  color: var(--main-color);
   background-color: #fff;
   max-width: 400px;
   position: absolute;
@@ -552,22 +556,22 @@ hr {
 }
 
 .contact-form>h2 {
-  color: #141414;
+  color: var(--main-color);
   margin-bottom: 20px;
 }
 
 .text-input {
   background: transparent;
-  color: #141414;
+  color: var(--main-color);
   width: 100%;
   height: 25px;
   margin: 5px 0 20px 0;
-  border: 1px solid #141414;
+  border: 1px solid var(--main-color);
   border-radius: 2px;
 }
 
 textarea {
-  border: 1px solid #141414;
+  border: 1px solid var(--main-color);
   border-radius: 2px;
   width: 100%;
 }
@@ -575,7 +579,7 @@ textarea {
 input[type="text"i],
 select {
   width: 100%;
-  border: 1px solid #141414;
+  border: 1px solid var(--main-color);
   border-radius: 2px;
   margin: 5px 0 20px 0;
 }
@@ -591,12 +595,12 @@ select {
   text-align: center;
   font-size: 1rem;
   background-color: #c0c0c0;
-  color: #141414;
+  color: var(--main-color);
   display: block;
 }
 
 .message-button:hover {
-  background-color: #141414;
+  background-color: var(--main-color);
   color: #fafafa;
 }
 
@@ -623,7 +627,7 @@ select {
 
 @keyframes type {
   from {
-    box-shadow: inset -3px 0px 0px #141414;
+    box-shadow: inset -3px 0px 0px var(--main-color);
   }
 
   to {
