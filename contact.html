@@ -25,112 +25,90 @@
         </ul>
     </header>
 
-    <!-- featured picture section -->
-    <div class="slider">
-        <ul>
-            <li id="featured-image-1" class="slide">
-                <img src="assets/images/featured/featured-01.webp">
-                <a class="prev" href="#featured-image-10">prev</a>
-                <a class="next" href="#featured-image-2">next</a>
-            </li>
-            <li id="featured-image-2" class="slide">
-                <img src="assets/images/featured/featured-02.webp">
-                <a class="prev" href="#featured-image-1">prev</a>
-                <a class="next" href="#featured-image-3">next</a>
-            </li>
-            <li id="featured-image-3" class="slide">
-                <img src="assets/images/featured/featured-03.webp">
-                <a class="prev" href="#featured-image-2">prev</a>
-                <a class="next" href="#featured-image-4">next</a>
-            </li>
-            <li id="featured-image-4" class="slide">
-                <img src="assets/images/featured/featured-04.webp">
-                <a class="prev" href="#featured-image-3">prev</a>
-                <a class="next" href="#featured-image-5">next</a>
-            </li>
-            <li id="featured-image-5" class="slide">
-                <img src="assets/images/featured/featured-05.webp">
-                <a class="prev" href="#featured-image-4">prev</a>
-                <a class="next" href="#featured-image-6">next</a>
-            </li>
-            <li id="featured-image-6" class="slide">
-                <img src="assets/images/featured/featured-06.webp">
-                <a class="prev" href="#featured-image-5">prev</a>
-                <a class="next" href="#featured-image-7">next</a>
-            </li>
-            <li id="featured-image-7" class="slide">
-                <img src="assets/images/featured/featured-07.webp">
-                <a class="prev" href="#featured-image-6">prev</a>
-                <a class="next" href="#featured-image-8">next</a>
-            </li>
-            <li id="featured-image-8" class="slide">
-                <img src="assets/images/featured/featured-08.webp">
-                <a class="prev" href="#featured-image-7">prev</a>
-                <a class="next" href="#featured-image-9">next</a>
-            </li>
-            <li id="featured-image-9" class="slide">
-                <img src="assets/images/featured/featured-09.webp">
-                <a class="prev" href="#featured-image-8">prev</a>
-                <a class="next" href="#featured-image-10">next</a>
-            </li>
-            <li id="featured-image-10" class="slide">
-                <img src="assets/images/featured/featured-10.webp">
-                <a class="prev" href="#featured-image-9">prev</a>
-                <a class="next" href="#featured-image-1">next</a>
-            </li>
-        </ul>
-    </div>
+    <!-- contact form -->
+    <section class="form-section">
+        <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input id="name" class="text-input" type="text" name="name" required>
+            <label for="email">Email Address:</label>
+            <input id="email" class="text-input" type="email" name="email_address" required>
+            <label for="interest-preference">What photographs are you interested in?</label>
+            <input type="text" id="interest-preference" list="categories" name="interest-preference">
+            <datalist id="categories">
+                <option value="Landscapes">Landscapes</option>
+                <option value="Seascapes">Seascapes</option>
+                <option value="Nature">Nature</option>
+                <option value="Wildlife">Wildlife</option>
+                <option value="Live Music/Events">Live Music/Events</option>
+                <option value="Other">Other</option>
+            </datalist>
+            <br>
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" rows="10" cols="40"></textarea>
+            <br>
+            <p>Would you like to be kept up to date with my latest work?</p>
+            <input id="yes-radio" name="marketing_preference" value="yes" type="radio">
+            <label for="yes-radio">Yes</label>
+            <br>
+            <input id="no-radio" name="marketing_preference" value="no" type="radio">
+            <label for="no-radio">No</label>
+            <br>
+            <input class="message-button" type="submit" value="Send Message">
+        </form>
+    </section>
 
-   <!-- footer -->
-  <footer class="footer-distributed">
-    <div class="footer-left">
-      <h3><a href="" class="logo">LOGO</a></h3>
-      <p class="footer-links">
-        <a href="index.html">Home</a>
-        |
-        <a href="gallery.html">Gallery</a>
-        |
-        <a href="contact.html">Contact</a>
-        <br>
-        <br>
-        <a href="#">Back to Top <i class="fas fa-arrow-up"></i></a>
-      </p>
-    </div>
-    <div class="footer-center">
-      <div>
-        <i class="fas fa-map-marker-alt"></i>
-        <p>Portlaoise, Co. Laois, Ireland.</p>
-      </div>
-      <div>
-        <i class="fas fa-phone-alt"></i>
-        <p>+353 86 328 1242</p>
-      </div>
-      <div>
-        <i class="far fa-envelope"></i>
-        <p><a href="mailto:info@gillyguilfoylephotography.com">info@gillyguilfoylephotography.com</a></p>
-      </div>
-    </div>
-    <div class="footer-right">
-      <p class="footer-about">
-        <span>Social Media</span>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l0abore et dolore
-        magna aliqua.
-      </p>
-      <div class="footer-icons">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-          aria-label="Visit my Facebook page! (opens in a new tab)"><i class="fa fa-facebook"></i></a>
+    <!-- footer -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3><a href="" class="logo">LOGO</a></h3>
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                |
+                <a href="gallery.html">Gallery</a>
+                |
+                <a href="contact.html">Contact</a>
+                <br>
+                <br>
+                <a href="#">Back to Top <i class="fas fa-arrow-up"></i></a>
+            </p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Portlaoise, Co. Laois, Ireland.</p>
+            </div>
+            <div>
+                <i class="fas fa-phone-alt"></i>
+                <p><a href="tel:+353863281242">+353 86 328 1242</a></p>
+            </div>
+            <div>
+                <i class="far fa-envelope"></i>
+                <p><a href="mailto:info@gillyguilfoylephotography.com">info@gillyguilfoylephotography.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-about">
+                <span>Social Media</span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l0abore et
+                dolore
+                magna aliqua.
+            </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Facebook page! (opens in a new tab)"><i class="fa fa-facebook"></i></a>
 
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-          aria-label="Visit my instagram page! (opens in a new tab)"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my instagram page! (opens in a new tab)"><i class="fa fa-instagram"></i></a>
 
-        <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-          aria-label="Visit my Twitter page! (opens in a new tab)"><i class="fa fa-twitter"></i></a>
-      </div>
-    </div>
-  </footer>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Twitter page! (opens in a new tab)"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 
-  <!-- font awesome script -->
-  <script src="https://kit.fontawesome.com/ef1b2a065e.js" crossorigin="anonymous"></script>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/ef1b2a065e.js" crossorigin="anonymous"></script>
 
 </body>
 
