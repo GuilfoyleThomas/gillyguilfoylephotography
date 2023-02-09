@@ -33,17 +33,17 @@
             <input id="name" class="text-input" type="text" name="name" required>
             <label for="email">Email Address:</label>
             <input id="email" class="text-input" type="email" name="email_address" required>
-            <label for="interest-preference">What photographs are you interested in?</label>
-            <input type="text" id="interest-preference" list="categories" name="interest-preference">
-            <datalist id="categories">
+
+            <label for="photo_preference">What photographs are you interested in?</label>
+
+            <select name="photo_preference" id="photo_preference">
                 <option value="Landscapes">Landscapes</option>
                 <option value="Seascapes">Seascapes</option>
                 <option value="Nature">Nature</option>
                 <option value="Wildlife">Wildlife</option>
                 <option value="Live Music/Events">Live Music/Events</option>
                 <option value="Other">Other</option>
-            </datalist>
-            <br>
+            </select>
             <label for="message">Your Message:</label>
             <textarea name="message" id="message" rows="10" cols="40"></textarea>
             <br>
