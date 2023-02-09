@@ -323,8 +323,10 @@ a.next:hover {
 }
 
 .slider {
-  height: 100vh;
+  height: 1000px;
+  padding-top: 61px;
   position: relative;
+  z-index: 0;
 }
 
 .slide {
@@ -348,6 +350,7 @@ img {
 
 #about-me {
   height: 600px;
+  margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
