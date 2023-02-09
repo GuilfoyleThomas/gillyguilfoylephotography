@@ -2,63 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gilly Guilfoyle Photography based in Portlaoise, Co. Laois, Ireland">
-    <meta name="keywords" content="photography, pictures, weddding, nature, event, portlaoise, laois, ireland">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gilly Guilfoyle Photography based in Portlaoise, Co. Laois, Ireland">
+  <meta name="keywords" content="photography, pictures, weddding, nature, event, portlaoise, laois, ireland">
 
-    <link href="favicon.png" type="image/x-icon" rel="shortcut icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Gilly Guilfoyle Photography</title>
+  <link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Gilly Guilfoyle Photography</title>
 </head>
 
 <body>
-    <header class="header">
-      <a href="index.html" class="logo" aria-label="Logo">LOGO</a>
-      <input class="menu-btn" type="checkbox" id="menu-btn">
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="index.html" aria-label="Go to the Home page">Home</a></li>
-        <li><a href="gallery.html" aria-label="Go to the Gallery page">Gallery</a></li>
-        <li><a href="contact.html" aria-label="Go to the Contact page">Contact</a></li>
-      </ul>
-    </header>
+  <header class="header">
+    <a href="index.html" class="logo" aria-label="Logo">LOGO</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn">
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html" aria-label="Go to the Home page">Home</a></li>
+      <li><a href="gallery.html" aria-label="Go to the Gallery page">Gallery</a></li>
+      <li><a href="contact.html" class="active" aria-label="Go to the Contact page">Contact</a></li>
+    </ul>
+  </header>
 
-    <!-- contact form -->
-    <section class="form-section" aria-label="Contact Form">
-        <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Contact Me</h2>
-            <label for="name">Name:</label>
-            <input id="name" class="text-input" type="text" name="name" required>
-            <label for="email">Email Address:</label>
-            <input id="email" class="text-input" type="email" name="email_address" required>
+  <!-- contact form -->
+  <section class="form-section" aria-label="Contact Form">
+    <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+      <h2>Contact Me</h2>
+      <label for="name">Name:</label>
+      <input id="name" class="text-input" type="text" name="name" required>
+      <label for="email">Email Address:</label>
+      <input id="email" class="text-input" type="email" name="email_address" required>
 
-            <label for="photo_preference">What photographs are you interested in?</label>
+      <label for="photo_preference">What photographs are you interested in?</label>
 
-            <select name="photo_preference" id="photo_preference">
-                <option value="Landscapes">Landscapes</option>
-                <option value="Seascapes">Seascapes</option>
-                <option value="Nature">Nature</option>
-                <option value="Wildlife">Wildlife</option>
-                <option value="Live Music/Events">Live Music/Events</option>
-                <option value="Other">Other</option>
-            </select>
-            <label for="message">Your Message:</label>
-            <textarea name="message" id="message" rows="10" cols="40"></textarea>
-            <br>
-            <p>Would you like to be kept up to date with my latest work?</p>
-            <input id="yes-radio" name="marketing_preference" value="yes" type="radio">
-            <label for="yes-radio">Yes</label>
-            <br>
-            <input id="no-radio" name="marketing_preference" value="no" type="radio">
-            <label for="no-radio">No</label>
-            <br>
-            <input class="message-button" type="submit" value="Send Message">
-        </form>
-    </section>
+      <select name="photo_preference" id="photo_preference">
+        <option value="Landscapes">Select</option>
+        <option value="Landscapes">Landscapes</option>
+        <option value="Seascapes">Seascapes</option>
+        <option value="Nature">Nature</option>
+        <option value="Wildlife">Wildlife</option>
+        <option value="Live Music/Events">Live Music/Events</option>
+        <option value="Other">Other</option>
+      </select>
+      <label for="message">Your Message:</label>
+      <textarea name="message" id="message" rows="10" cols="40"></textarea>
+      <br>
+      <p>Would you like to be kept up to date with my latest work?</p>
+      <input id="yes-radio" name="marketing_preference" value="yes" type="radio">
+      <label for="yes-radio">Yes</label>
+      <br>
+      <input id="no-radio" name="marketing_preference" value="no" type="radio">
+      <label for="no-radio">No</label>
+      <br>
+      <input class="message-button" type="submit" value="Send Message">
+    </form>
+  </section>
 
-    <!-- footer -->
+  <!-- footer -->
   <footer class="footer-distributed" aria-label="Footer">
     <div class="footer-left">
       <h3><a href="" class="logo">LOGO</a></h3>
@@ -84,14 +85,14 @@
       </div>
       <div>
         <i class="far fa-envelope"></i>
-        <p><a href="mailto:info@gillyguilfoylephotography.com" aria-label="Email Address">info@gillyguilfoylephotography.com</a></p>
+        <p><a href="mailto:info@gillyguilfoylephotography.com"
+            aria-label="Email Address">info@gillyguilfoylephotography.com</a></p>
       </div>
     </div>
     <div class="footer-right">
       <p class="footer-about">
-        <span>Social Media</span>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l0abore et dolore
-        magna aliqua.
+        <span>Follow Me!</span>
+        The best place to keep up to date with my latest photograhs is by following me on my socials below:
       </p>
       <div class="footer-icons">
         <a href="https://www.facebook.com/" target="_blank" rel="noopener"

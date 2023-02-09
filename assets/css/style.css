@@ -24,13 +24,14 @@ h2 {
 
 .header {
   background-color: #141414;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   width: 100%;
   z-index: 3;
 }
 
-.header a, .menu a {
+.header a,
+.menu a {
   color: #fff;
 }
 
@@ -51,8 +52,8 @@ h2 {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
-  color: #141414
+  background-color: #fff;
+  color: #141414;
 }
 
 .header .logo {
@@ -67,6 +68,11 @@ h2 {
 .logo {
   background: url("../images/logo-white.png") no-repeat center center;
   background-size: cover;
+}
+
+a.active {
+  background-color: #fff;
+  color: #141414;
 }
 
 /* menu */
@@ -121,24 +127,24 @@ h2 {
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
   max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked~.menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.header .menu-btn:checked~.menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -491,19 +497,19 @@ hr {
 .transparent-box {
   height: 250px;
   width: 350px;
-  background-color:rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
   transition: background-color 0.3s ease;
 }
 
-.img-box:hover img { 
+.img-box:hover img {
   transform: scale(1.1);
 }
 
 .img-box:hover .transparent-box {
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .img-box:hover .caption {
@@ -515,7 +521,7 @@ hr {
   cursor: pointer;
 }
 
-.caption > p:nth-child(2) {
+.caption>p:nth-child(2) {
   font-size: 0.8em;
 }
 
@@ -543,7 +549,7 @@ hr {
   padding: 30px;
 }
 
-.contact-form > h2 {
+.contact-form>h2 {
   color: #141414;
   margin-bottom: 20px;
 }
@@ -564,7 +570,8 @@ textarea {
   width: 100%;
 }
 
-input[type="text" i], select {
+input[type="text"i],
+select {
   width: 100%;
   border: 1px solid #141414;
   border-radius: 2px;
@@ -696,14 +703,17 @@ input[type="text" i], select {
   .header li {
     float: left;
   }
+
   .header li a {
     padding: 20px 30px;
   }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
@@ -711,7 +721,7 @@ input[type="text" i], select {
 
 @media screen and (max-width: 443px) {
   .contact-form {
-      top: inherit;
+    top: inherit;
   }
 
   #about-me {
@@ -719,6 +729,6 @@ input[type="text" i], select {
   }
 
   .footer-distributed {
-      padding: 55px 30px;
+    padding: 55px 30px;
   }
 }
