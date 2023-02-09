@@ -19,10 +19,6 @@ h2 {
   text-align: center;
 }
 
-img {
-  z-index: -2;
-}
-
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -295,6 +291,7 @@ img {
 #about-me {
   height: 600px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #left-about {
@@ -342,6 +339,14 @@ hr {
 
 .right-about-heading h2 {
   text-align: right;
+}
+
+.left-about-heading p {
+  text-align: left;
+}
+
+.left-about-heading h2 {
+  text-align: left;
 }
 
 /* about me center image */
@@ -500,17 +505,6 @@ hr {
     width: 100%;
     float: left;
     padding: 0;
-  }
-
-  #times div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
-  }
-
-  hr {
-    display: none;
   }
 }
 
