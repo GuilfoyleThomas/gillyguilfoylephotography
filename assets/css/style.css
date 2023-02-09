@@ -695,3 +695,13 @@ hr {
     display: none;
   }
 }
+
+@media screen and (max-width: 443px) {
+  .contact-form {
+      top: inherit;
+  }
+
+  .footer-distributed {
+      padding: 55px 30px;
+  }
+}
