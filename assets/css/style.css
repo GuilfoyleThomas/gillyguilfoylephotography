@@ -739,4 +739,8 @@ select {
   .footer-distributed {
     padding: 55px 30px;
   }
+
+  .gallery-image {
+    padding-top: 200px;
+  }
 }
