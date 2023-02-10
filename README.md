@@ -1,108 +1,181 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Gilly Guilfoyle Photography</h1>
 
-Welcome Thomas Guilfoyle,
+[View the live project here.](https://guilfoylethomas.github.io/gillyguilfoylephotography/index.html)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Gilly Guilfoyle Photography is a site I made formy father. He showcase his photography to the world, so I saw it as an opportunity where we could help each other. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential viewers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2 align="center"><img src="/workspace/gillyguilfoylephotography/amiresponsivesc.PNG"></h2>
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about photograhy and locate where the photographs were taken.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find photographs and their respective locations.
+        3. As a First Time Visitor, I would like to contact the photographer should I have any interest in any of the photographs or have any queries.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Returning Visitor Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1. As a Returning Visitor, I want to keep up to date with the work of the photographer
+        2. As a Returning Visitor, I want to find the best way to get in contact with the photographer with any questions I may have.
+        3. As a Returning Visitor, I want to find places to visit inspired by the photography.
 
-A blue button should appear to click: _Make Public_,
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check to see if there is any newly added content.
+        2. As a Frequent User, I want to check to see if the photographer is accepting clients.
+        3. As a Frequent User, I want to opt in to be kept up to date with new photographs.
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colours used are in this project are black and white.
+    -   #### Typography
+        -   The Crimson Text font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Crimson Text stood out to me most while browsing google fonts, it is both attractive and appropriate. I used Cormorant Garamond for headings as it looked to me as if it was well suited with the main font.
+    -   #### Imagery
+        -   Imagery is very important for this project, especially when viewed on a PC. The slider on the home page and gallery images are designed to be striking and catch the user's attention.
 
-Another blue button should appear to click: _Open Browser_.
+*   ### Wireframes
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -   Home Page Wireframe - [View](wireframe-index.html)
 
-To log into the Heroku toolbelt CLI:
+    -   Mobile Wireframe - [View](wireframe-gallery.pdf)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   Contact Us Page Wireframe - [View](wireframe-contact.pdf)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
-------
+-   Responsive on all device sizes
 
-## Release History
+-   Interactive elements
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Languages Used
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Frameworks, Libraries & Programs Used
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Testing
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Testing User Stories from User Experience (UX) Section
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-   #### First Time Visitor Goals
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about photograhy and locate where the photographs were taken.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is an image slider containing 10 'featured images'.
+        2. The main points are made immediately with image slider.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find photographs and their respective locations.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-   #### Returning Visitor Goals
 
-------
+    1. As a Returning Visitor, I want to keep up to date with the work of the photographer
 
-## FAQ about the uptime script
+        1. New photographs will be added to the gallery page and the 'featured' section will showcase new shots.
+        2. In the contact form, there isa radio button to opt in to be kept up to date with any new content.
 
-**Why have you added this script?**
+    2. As a Returning Visitor, I want to find the best way to get in contact with the photographer with any questions I may have.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+        1. The navigation bar clearly highlights the "Contact Me" Page.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the photographer on social media.
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the photographers email.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        5. The email and phone buttons are set up to automatically open up your email app or keypad and autofill there email address in the "To" section or the phone number.
 
-**How will this affect me?**
+    3. As a Returning Visitor, I want to find places to visit inspired by the photography.
+        1. The gallery page shows the location of most pictures upon hover or tap.
+        2. Alternatively, the user can message the photographer with any location queries.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+-   #### Frequent User Goals
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    1. As a Frequent User, I want to check to see if there is any newly added content.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+        1. The user can opt in to be notified using the form, or by viewing the image slider on the main page.
 
-**So….?**
+    2. 2. As a Frequent User, I want to check to see if the photographer is accepting clients.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+        1. The user would message the photographer using the contact form initially.
 
-**Can I opt out?**
+    3. As a Frequent User, I want to opt in to be kept up to date with new photographs.
+        1. This can be achieved by using the contact form.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Further Testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-**Anything more?**
+### Known Bugs
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+-   The image slider jumps past the navbar when browsing through it.
+-   On the contact page, the background image isn't showing.
 
----
+## Deployment
 
-Happy coding!
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by myself.
+
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+### Media
+
+-   All Images were were taken by my father, Pat "Gilly" Guilfoyle who gave me full permission to use them all.
+
+### Acknowledgements
+
+-   My Father, Pat (Gilly) for his wonderful captures and paitence.
+
+-   My Mentor, Jack for his helpful feedback.
+
+-   Tutor support at Code Institute for their support.

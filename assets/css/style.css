@@ -576,7 +576,7 @@ textarea {
   width: 100%;
 }
 
-input[type="text"i],
+input[type="text"],
 select {
   width: 100%;
   border: 1px solid var(--main-color);
