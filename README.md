@@ -4,7 +4,7 @@
 
 Gilly Guilfoyle Photography is a site I made formy father. He showcase his photography to the world, so I saw it as an opportunity where we could help each other. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential viewers.
 
-<h2 align="center"><img src="/workspace/gillyguilfoylephotography/amiresponsivesc.PNG"></h2>
+<h2 align="center"><img src="/workspace/gillyguilfoylephotography/readme-files/amiresponsivesc.PNG"></h2>
 
 ## User Experience (UX)
 
@@ -36,17 +36,49 @@ Gilly Guilfoyle Photography is a site I made formy father. He showcase his photo
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](wireframe-index.html)
+    -   Home Page Wireframe - [View](/workspace/gillyguilfoylephotography/readme-files/wireframe-index.html)
 
-    -   Mobile Wireframe - [View](wireframe-gallery.pdf)
+    -   Gallery Page Wireframe - [View](/workspace/gillyguilfoylephotography/readme-files/wireframe-gallery.pdf)
 
-    -   Contact Us Page Wireframe - [View](wireframe-contact.pdf)
+    -   Contact Us Page Wireframe - [View](/workspace/gillyguilfoylephotography/readme-files/wireframe-contact.pdf)
 
 ## Features
 
 -   Responsive on all device sizes
 
 -   Interactive elements
+
+- __Navigation Bar__
+
+  - Featured on 4 pages, the full responsive navigation bar includes links to the Logo, Home Page, Gallery Page, Contact Page and the 404 page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
+
+- __The landing page slider__
+
+  - The landing includes a photograph slider to allow the user to see exactly what the website is about and who this site would be applicable to.
+  - This section introduces the user to the photographer with 10 'featured images' to grab their attention.
+
+- __Gallery Section__
+
+  - The gallery section will allow the user to easily navigate through the work of the photographer and viewing the location ny simply hovering over the picture or tapping on mobile.
+
+- __Contact Section__
+
+  - This section will allow the user to get in contact with the photographer with any queries they may have.
+  
+  - __The Footer__ 
+
+  - The footer section includes a mini navigation bar to the left for convenience. This also features a 'back to top' link which will bring the user to the top of the page without the unnecessary scrolling. In the middle I included information such as address, phone number and email address. And finally, on the right, I have links to the relevant social media sites for the photographer (placeholders). The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+
+  - __The 404 Section__
+  - This page is to tell they user that they're in a place that doesn't exist and/or they clicked on a broken link. I styled it with the same colors I used for the rest of the site:
+
+  ### Future Enhancements
+
+- I would like to add a lightbox to the gallery imagess, so users can view a bigger version of the photos upon clicking.
+- I would like to add a 'share' button to the gallery images, so users can share a photograph.
+- I plan to update the featured images when the photographer comes back to me with better dimensions for mobile, these pictures are best viewed on tablet or PC currently.
 
 ## Languages Used
 
@@ -89,10 +121,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I would like to contact the photographer should I have any interest in any of the photographs or have any queries.
+        1. Theres is a Contact page and additionally they can contact the organisation on social media with the links in the footer which highlights when hovering.
 
 -   #### Returning Visitor Goals
 
@@ -133,6 +163,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+### Cross Browser and Cross Device Testing
+| TOOL / Device                 | BROWSER     | OS         |
+|-------------------------------|-------------|------------|
+| real phone: galaxy s21        | chrome      | android    |
+| real phone: galaxy s10        | chrome      | android    |
+| google dev tools              | chrome      | android    |
+| real iPhone 13                | safari      | iOs        |
+| real iPhone 11                | safari      | iOs        |
+| real tablet: ipad             | safari      | iOs        |
+| real tablet: Samsung Tab      | chrome      | Android    |
+| real computer: mac book pro   | safari      | macOS      |
+| real pc (24" screen)          | chrome      | windows 10 |
+| dell latitude (14" screen)    | firefox     | windows 10 |
+
 ### Known Bugs
 
 -   The image slider jumps past the navbar when browsing through it.
@@ -152,19 +196,9 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-## Credits
-
-### Code
-
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
-
 ### Content
 
--   All content was written by myself.
+-   All content was written by my father (Gilly) and I.
 
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
