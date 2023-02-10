@@ -2,9 +2,9 @@
 
 [View the live project here.](https://guilfoylethomas.github.io/gillyguilfoylephotography/index.html)
 
-Gilly Guilfoyle Photography is a site I made formy father. He showcase his photography to the world, so I saw it as an opportunity where we could help each other. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential viewers.
+Gilly Guilfoyle Photography is a site I made for my father. He showcase his photography to the world, so I saw it as an opportunity where we could help each other. It is designed to be responsibe and accessible on a range of devices (images are designed to look their best on tablet/pc), making it easy to navigate for potential viewers.
 
-<h2 align="center"><img src="/workspace/gillyguilfoylephotography/readme-files/amiresponsivesc.PNG"></h2>
+<h2 align="center"><img src="/workspace/gillyguilfoylephotography/amiresponsivesc.PNG"></h2>
 
 ## User Experience (UX)
 
@@ -36,11 +36,11 @@ Gilly Guilfoyle Photography is a site I made formy father. He showcase his photo
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](/workspace/gillyguilfoylephotography/readme-files/wireframe-index.html)
+    -   Home Page Wireframe - [View](/workspace/gillyguilfoylephotography/wireframe-contact.pdf)
 
-    -   Gallery Page Wireframe - [View](/workspace/gillyguilfoylephotography/readme-files/wireframe-gallery.pdf)
+    -   Gallery Page Wireframe - [View](/workspace/gillyguilfoylephotography/wireframe-gallery.pdf)
 
-    -   Contact Us Page Wireframe - [View](/workspace/gillyguilfoylephotography/readme-files/wireframe-contact.pdf)
+    -   Contact Us Page Wireframe - [View](/workspace/gillyguilfoylephotography/wireframe-index.html)
 
 ## Features
 
@@ -53,7 +53,7 @@ Gilly Guilfoyle Photography is a site I made formy father. He showcase his photo
   - Featured on 4 pages, the full responsive navigation bar includes links to the Logo, Home Page, Gallery Page, Contact Page and the 404 page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
 
-- __The landing page slider__
+- __The Landing Page Slider__
 
   - The landing includes a photograph slider to allow the user to see exactly what the website is about and who this site would be applicable to.
   - This section introduces the user to the photographer with 10 'featured images' to grab their attention.
@@ -88,9 +88,9 @@ Gilly Guilfoyle Photography is a site I made formy father. He showcase his photo
 ### Frameworks, Libraries & Programs Used
 
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on many elements.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the Crimson Text and Cormorant Garamond fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
@@ -104,8 +104,8 @@ Gilly Guilfoyle Photography is a site I made formy father. He showcase his photo
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/workspace/gillyguilfoylephotography/csscheck.JPG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/workspace/gillyguilfoylephotography/csscheck.JPG)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -198,9 +198,14 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--   All content was written by my father (Gilly) and I.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+- All text content was written by my father (Gilly) and I.
+- Some features on the page were inspired by the Love Running project.
+- All icons used are from [Font Awesome](https://fontawesome.com/)
+- Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+- The 404 page was inspired by [this](https://codepen.io/akashrajendra/pen/JKKRvQ)
+- The favicon was generated on [icons8.com](https://icons8.com/icons/set/camera-favicon)
+- The slider was was an idea I got from looking at on [this](https://css-tricks.com/css-only-carousel/)
+- The hamburger menu was inspired by [this](https://dev.to/gautamtiwari/how-to-make-a-responsive-hamburger-menu-using-css-only-3pg5)
 
 ### Media
 
